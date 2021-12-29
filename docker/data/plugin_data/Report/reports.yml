@@ -1,0 +1,20 @@
+---
+reports: []
+recyclebin:
+  test1:
+    name: test
+    nestdir: test1
+    reporter: princepines
+    player: princepines
+    desc: testing
+    notes: princepines#5041
+    reviewed: false
+  test21:
+    name: test2
+    nestdir: test21
+    reporter: princepines
+    player: princepines
+    desc: test
+    notes: test
+    reviewed: true
+...

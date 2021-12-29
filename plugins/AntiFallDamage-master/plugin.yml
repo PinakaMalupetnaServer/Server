@@ -1,0 +1,6 @@
+name: AntiFallDamage
+main: AFD\main
+version: 1
+api: 3.0.0
+authors: robozeri, princepines
+description: "Disable fall damage"

@@ -1,0 +1,5 @@
+name: SkinData
+main: Skin\Main
+version: 1.0.0
+authors: [darumakka2]
+api: [3.0.0]

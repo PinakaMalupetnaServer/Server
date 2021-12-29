@@ -1,0 +1,351 @@
+{
+  "blueprints": {
+    "blank": {
+      "arguments": {},
+      "flags": {}
+    },
+
+    "one-player-argument": {
+      "arguments": {
+        "player": {
+          "length": 1,
+          "display": "Player",
+          "optional": false
+        }
+      },
+      "flags": {}
+    },
+
+    "paginated": {
+      "arguments": {
+        "page": {
+          "length": 1,
+          "display": "Page",
+          "optional": true
+        }
+      },
+      "flags": {}
+    },
+
+    "paginated-allable": {
+      "arguments": {
+        "page": {
+          "length": 1,
+          "display": "Page",
+          "optional": true
+        }
+      },
+      "flags": {
+        "all": {
+          "length": 0,
+          "display": "Show all?",
+          "aliases": ["a"]
+        }
+      }
+    },
+
+    "player-punish": {
+      "arguments": {
+        "player": {
+          "length": 1,
+          "display": "Player",
+          "optional": false
+        },
+        "duration": {
+          "length": 1,
+          "display": "Duration (\"inf\" for permanent)",
+          "optional": false
+        },
+        "reason": {
+          "length": -1,
+          "display": "Reason",
+          "optional": true
+        }
+      },
+      "flags": {}
+    },
+
+    "ip-punish": {
+      "arguments": {
+        "target": {
+          "length": 1,
+          "display": "Player/IP",
+          "optional": false
+        },
+        "duration": {
+          "length": 1,
+          "display": "Duration (\"inf\" for permanent)",
+          "optional": false
+        },
+        "reason": {
+          "length": -1,
+          "display": "Reason",
+          "optional": true
+        }
+      },
+      "flags": {}
+    },
+
+    "ip-pardon": {
+      "arguments": {
+        "ip": {
+          "length": 1,
+          "display": "IP",
+          "optional": false
+        }
+      },
+      "flags": {}
+    }
+  },
+
+
+  "commands": {
+    "rawtell": {
+      "blueprint": {
+        "arguments": {
+          "player": {
+            "length": 1,
+            "display": "Player",
+            "optional": false
+          },
+          "message": {
+            "length": -1,
+            "display": "Message",
+            "optional": false
+          }
+        },
+        "flags": {
+          "nomessage": {
+            "length": 0,
+            "display": "No chat message?",
+            "aliases": ["nom"]
+          },
+          "popup": {
+            "length": 0,
+            "display": "Send a popup?",
+            "aliases": ["p"]
+          },
+          "title": {
+            "length": 0,
+            "display": "Send a title?",
+            "aliases": ["t"]
+          }
+        }
+      },
+      "class": "\\adeynes\\cucumber\\command\\RawtellCommand",
+      "usage": "/rawtell <player> <message> [-nomessage|-nom] [-popup|-p] [-title|-t]"
+    },
+
+    "log": {
+      "blueprint": {
+        "arguments": {
+          "message": {
+            "length": -1,
+            "display": "Log message",
+            "optional": false
+          }
+        },
+        "flags": {
+          "severity": {
+            "length": 1,
+            "display": "Log severity",
+            "aliases": ["s"],
+            "options": [
+              "log",
+              "notice",
+              "important",
+              "alert"
+            ]
+          }
+        }
+      },
+      "class": "\\adeynes\\cucumber\\command\\LogCommand",
+      "usage": "/log <message> [-severity|-s <severity>]"
+    },
+
+    "alert": {
+      "blueprint": {
+        "arguments": {
+          "message": {
+            "length": -1,
+            "display": "Message",
+            "optional": false
+          }
+        },
+        "flags": {
+          "nomessage": {
+            "length": 0,
+            "display": "No chat message?",
+            "aliases": ["nom"]
+          },
+          "popup": {
+            "length": 0,
+            "display": "Send a popup?",
+            "aliases": ["p"]
+          },
+          "title": {
+            "length": 0,
+            "display": "Send a title?",
+            "aliases": ["t"]
+          }
+        }
+      },
+      "class": "\\adeynes\\cucumber\\command\\AlertCommand",
+      "usage": "/alert <message> [-nomessage|-nom] [-popup|-p] [-title|-t]"
+    },
+
+    "ban": {
+      "blueprint": "player-punish",
+      "class": "\\adeynes\\cucumber\\command\\BanCommand",
+      "usage": "/ban <player> <duration>|inf [reason]"
+    },
+
+    "banlist": {
+      "blueprint": "paginated-allable",
+      "class": "\\adeynes\\cucumber\\command\\BanlistCommand",
+      "usage": "/banlist [page] [-all|-a]"
+    },
+
+    "pardon": {
+      "blueprint": "one-player-argument",
+      "class": "\\adeynes\\cucumber\\command\\PardonCommand",
+      "usage": "/pardon <player>",
+      "aliases": ["unban"]
+    },
+
+    "ipban": {
+      "blueprint": "ip-punish",
+      "class": "\\adeynes\\cucumber\\command\\IpbanCommand",
+      "usage": "/ipban <player>|<ip> <duration>|inf [reason]"
+    },
+
+    "ipbanlist": {
+      "blueprint": "paginated-allable",
+      "class": "\\adeynes\\cucumber\\command\\IpbanlistCommand",
+      "usage": "/ipbanlist [page] [-all|-a]"
+    },
+
+    "ippardon": {
+      "blueprint": "ip-pardon",
+      "class": "\\adeynes\\cucumber\\command\\IppardonCommand",
+      "usage": "/ippardon <ip>",
+      "aliases": ["ipunban"]
+    },
+
+    "uban": {
+      "blueprint": {
+        "arguments": {
+          "target": {
+            "length": 1,
+            "display": "Player/IP",
+            "optional": false
+          },
+          "reason": {
+            "length": -1,
+            "display": "Reason",
+            "optional": true
+          }
+        },
+        "flags": {}
+      },
+      "class": "\\adeynes\\cucumber\\command\\UbanCommand",
+      "usage": "/uban <player>|<ip> [reason]"
+    },
+
+    "mute": {
+      "blueprint": "player-punish",
+      "class": "\\adeynes\\cucumber\\command\\MuteCommand",
+      "usage": "/mute <player> <duration>|inf [reason]"
+    },
+
+    "mutelist": {
+      "blueprint": "paginated-allable",
+      "class": "\\adeynes\\cucumber\\command\\MutelistCommand",
+      "usage": "/mutelist [page] [-all|-a]"
+    },
+
+    "unmute": {
+      "blueprint": "one-player-argument",
+      "class": "\\adeynes\\cucumber\\command\\UnmuteCommand",
+      "usage": "/unmute <player>"
+    },
+
+    "warn": {
+      "blueprint": "player-punish",
+      "class": "\\adeynes\\cucumber\\command\\WarnCommand",
+      "usage": "/warn <player> <duration>|inf [reason]"
+    },
+
+    "warnings": {
+      "blueprint": {
+        "arguments": {
+          "player": {
+            "length": 1,
+            "display": "Player",
+            "optional": false
+          }
+        },
+        "flags": {
+          "all": {
+            "length": 0,
+            "display": "Show all?",
+            "aliases": ["a"]
+          }
+        }
+      },
+      "class": "\\adeynes\\cucumber\\command\\WarningsCommand",
+      "usage": "/warnings <player> [-all|-a]",
+      "aliases": ["warns"]
+    },
+
+    "mywarnings": {
+      "blueprint": {
+        "arguments": {},
+        "flags": {
+          "all": {
+            "length": 0,
+            "display": "Show all?",
+            "aliases": ["a"]
+          }
+        }
+      },
+      "class": "\\adeynes\\cucumber\\command\\MywarningsCommand",
+      "usage": "/mywarnings [-all|-a]",
+      "aliases": ["mywarns"]
+    },
+
+    "delwarn": {
+      "blueprint": {
+        "arguments": {
+          "id": {
+            "length": 1,
+            "display": "ID",
+            "optional": false
+          }
+        },
+        "flags": {}
+      },
+      "class": "\\adeynes\\cucumber\\command\\DelwarnCommand",
+      "usage": "/delwarn <id>",
+      "aliases": ["deletewarn", "deletewarning", "unwarn"]
+    },
+
+    "ip": {
+      "blueprint": "one-player-argument",
+      "class": "\\adeynes\\cucumber\\command\\IpCommand",
+      "usage": "/ip <player>"
+    },
+
+    "vanish": {
+      "blueprint": "blank",
+      "class": "\\adeynes\\cucumber\\command\\VanishCommand",
+      "usage": "/vanish"
+    },
+
+    "history": {
+      "blueprint": "one-player-argument",
+      "class": "\\adeynes\\cucumber\\command\\HistoryCommand",
+      "usage": "/history <player>"
+    }
+  }
+}

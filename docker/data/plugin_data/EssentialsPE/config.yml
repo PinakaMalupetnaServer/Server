@@ -1,0 +1,22 @@
+---
+Config-Version: 1.0.0
+Auto-Update-Config: true
+Provider: SQLite
+MySQL:
+  Host: 127.0.0.1
+  User: Admin
+  Password: Admin
+  Database: EssentialsPE
+  Port: 3306
+Afk:
+  Broadcast: true
+  Auto-Kick: false
+  Auto-Kick-Idling: false
+  Kick-Time: 300
+Teleporting:
+  Tpa-Valid-Time: 30
+  Delay: true
+  Delay-Time: 3
+Chat:
+  Nick-Symbol: '&9&l~&r'
+...

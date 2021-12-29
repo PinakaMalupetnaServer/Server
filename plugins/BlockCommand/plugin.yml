@@ -1,0 +1,10 @@
+name: BlockCommand
+main: BlockCommand\one
+version: 2.0
+api: 3.0.0
+author: princepines
+description: Step on a speicifc Block to execute Commands.
+commands:
+  bcinfo:
+    description: Shows the Information About BlockCommand
+    usage: /bcinfo

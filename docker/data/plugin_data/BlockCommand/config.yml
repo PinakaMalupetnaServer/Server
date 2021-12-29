@@ -1,0 +1,5 @@
+# Enter your world name to be used for BlockCommand (Multiple worlds coming soon)
+world: "pvp"
+
+# Enter block id to set, usually a number
+block-id: 57 # diamond block

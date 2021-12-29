@@ -1,0 +1,325 @@
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading pocketmine.yml...
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading server properties...
+2021-12-27 [15:24:34] [Server thread/INFO]: Selected English (eng) as the base language
+2021-12-27 [15:24:34] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Starting remote control listener
+2021-12-27 [15:24:34] [Server thread/INFO]: RCON running on 0.0.0.0:19132
+2021-12-27 [15:24:34] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-12-27 [15:24:34] [Server thread/INFO]: Opening server on 0.0.0.0:19132
+2021-12-27 [15:24:34] [Server thread/INFO]: This server is running PocketMine-MP version 3.26.4
+2021-12-27 [15:24:34] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading resource packs...
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading EconomyAPI v5.7.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading AntiAuraBot v1.0.1
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading AlwaysSpawn v2.2.4
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading PurePerms v1.4.3
+2021-12-27 [15:24:34] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-12-27 [15:24:34] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-12-27 [15:24:34] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading MultiWorld v1.6.0-beta6
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading AntiGlitch v1.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading DevTools v1.14.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading CombatLogger v0.0.6
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading WorldProtect v2.3.9
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading DEVirion v1.2.7
+2021-12-27 [15:24:34] [Server thread/INFO]: [DEVirion] Loading virion libasynql v3.3.2 by SOFe (antigen: poggit\libasynql)
+2021-12-27 [15:24:34] [Server thread/INFO]: [DEVirion] Loading virion asyncio v0.2.0 by adeynes (antigen: adeynes\asyncio)
+2021-12-27 [15:24:34] [Server thread/INFO]: [DEVirion] Loading virion parsecmd v5.0.1 by adeynes (antigen: adeynes\parsecmd)
+2021-12-27 [15:24:34] [Server thread/INFO]: [DEVirion] Loading virion DiscordWebhookAPI v1.0.1 by CortexPE (antigen: CortexPE\DiscordWebhookAPI)
+2021-12-27 [15:24:34] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v1.3.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2021-12-27 [15:24:34] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading iProtector v3.1.1
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading BuilderTools v1.2.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading CustomAreas v1.2.1
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-12-27 [15:24:34] [Server thread/INFO]: Enabling AlwaysSpawn v2.2.4
+2021-12-27 [15:24:34] [Server thread/INFO]: AlwaysSpawn Enabled!
+2021-12-27 [15:24:34] [Server thread/INFO]: Enabling DevTools v1.14.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading CPS v1.0.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading FormImagesFix v0.0.1
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading BlockCommand v2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading DoEmote v1.0.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading cucumber v2.0.0-princepines
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading Selector v1.0.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading KillMoney v1.0.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading InfoUI v1.0.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading Slapper v1.6.2
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading NoHunger v1.0.3-PMns
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading SkinData v1.0.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading Report v1.5
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading PacketLimiter v1.0.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading Fireworks v0.0.4
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading ChristmasPMnS v1.2.0
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading Teleport v3.0-reborn
+2021-12-27 [15:24:34] [Server thread/INFO]: Loading SlapperRotation v1.2.2
+2021-12-27 [15:24:34] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-12-27 [15:24:34] [Server thread/INFO]: Enabling WorldProtect v2.3.9
+2021-12-27 [15:24:34] [Server thread/INFO]: [WorldProtect] Enabled 6 features
+2021-12-27 [15:24:34] [Server thread/INFO]: Enabling DEVirion v1.2.7
+2021-12-27 [15:24:34] [Server thread/INFO]: Preparing world "lobby"
+2021-12-27 [15:24:34] [Server thread/INFO]: Enabling EconomyAPI v5.7.2
+2021-12-27 [15:24:34] [Server thread/NOTICE]: [EconomyAPI] COVID19: Keep your personal hygiene by washing your hands and wearing a mask.
+2021-12-27 [15:24:35] [Server thread/NOTICE]: [EconomyAPI] Database provider was set to: MySQL
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling AntiAuraBot v1.0.1
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling PurePerms v1.4.3
+2021-12-27 [15:24:35] [Server thread/NOTICE]: [PurePerms] Set data provider to MySQL.
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling MultiWorld v1.6.0-beta6
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling AntiGlitch v1.2
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling CombatLogger v0.0.6
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling iProtector v3.1.1
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling BuilderTools v1.2.0
+2021-12-27 [15:24:35] [Server thread/WARNING]: We recommend to disable 'memory.async-worker-hard-limit' in pocketmine.yml. By disabling this option will be BuilderTools able to load bigger schematic files.
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling CustomAreas v1.2.1
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-12-27 [15:24:35] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling CPS v1.0.2
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling FormImagesFix v0.0.1
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling BlockCommand v2
+2021-12-27 [15:24:35] [Server thread/ALERT]: [BlockCommand] BlockCommand Armed
+2021-12-27 [15:24:35] [Server thread/NOTICE]: [BlockCommand] Created by princepines, contributed by many.
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling DoEmote v1.0.2
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling cucumber v2.0.0-princepines
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling Selector v1.0.0
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling KillMoney v1.0.0
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling InfoUI v1.0.0
+2021-12-27 [15:24:35] [Server thread/INFO]: [InfoUI] Information has been revealed
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling Slapper v1.6.2
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling NoHunger v1.0.3-PMns
+2021-12-27 [15:24:35] [Server thread/INFO]: [NoHunger] This Plugin is modified for PMnS,
+2021-12-27 [15:24:35] [Server thread/INFO]: [NoHunger] modified by princepines, Clarence1028
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling SkinData v1.0.0
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling Report v1.5
+2021-12-27 [15:24:35] [Server thread/INFO]: [Report] System mode: local
+2021-12-27 [15:24:35] [Server thread/INFO]: [Report] ReportSystem >ReportSystem by ImNotYourDev enabled!
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling PacketLimiter v1.0.0
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling Fireworks v0.0.4
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling ChristmasPMnS v1.2.0
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling Teleport v3.0-reborn
+2021-12-27 [15:24:35] [Server thread/INFO]: [Teleport] Plugin by Clarence2810 has been enabled
+2021-12-27 [15:24:35] [Server thread/INFO]: [Teleport] Contributors: princepines
+2021-12-27 [15:24:35] [Server thread/INFO]: Enabling SlapperRotation v1.2.2
+2021-12-27 [15:24:35] [Server thread/INFO]: Starting GS4 status listener
+2021-12-27 [15:24:35] [Server thread/INFO]: Setting query port to 19132
+2021-12-27 [15:24:35] [Server thread/INFO]: Query running on 0.0.0.0:19132
+2021-12-27 [15:24:35] [Server thread/INFO]: Default game type: Adventure Mode
+2021-12-27 [15:24:35] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-12-27 [15:24:35] [Server thread/INFO]: Done (1.142s)! For help, type "help" or "?"
+2021-12-27 [15:24:35] [Server thread/INFO]: ----- PocketMine-MP Auto Updater -----
+2021-12-27 [15:24:35] [Server thread/INFO]: It appears you're running a Stable build, when you've specified that you prefer to run Pm3 builds.
+2021-12-27 [15:24:35] [Server thread/INFO]: If you would like to be kept informed about new Stable builds only, it is recommended that you change 'preferred-channel' in your pocketmine.yml to 'stable'.
+2021-12-27 [15:24:35] [Server thread/INFO]: ----- -------------------------- -----
+2021-12-27 [15:24:57] [Server thread/INFO]: Please run this command in-game.
+2021-12-27 [15:25:21] [Server thread/INFO]: ---- Server status ----
+2021-12-27 [15:25:21] [Server thread/INFO]: Uptime: 46 seconds
+2021-12-27 [15:25:21] [Server thread/INFO]: Current TPS: 20 (0.18%)
+2021-12-27 [15:25:21] [Server thread/INFO]: Average TPS: 20 (0.19%)
+2021-12-27 [15:25:21] [Server thread/INFO]: Network upload: 0 kB/s
+2021-12-27 [15:25:21] [Server thread/INFO]: Network download: 0 kB/s
+2021-12-27 [15:25:21] [Server thread/INFO]: Thread count: 9
+2021-12-27 [15:25:21] [Server thread/INFO]: Main thread memory: 54.83 MB.
+2021-12-27 [15:25:21] [Server thread/INFO]: Total memory: 115.12 MB.
+2021-12-27 [15:25:21] [Server thread/INFO]: Total virtual memory: 717.83 MB.
+2021-12-27 [15:25:21] [Server thread/INFO]: Heap memory: 3.14 MB.
+2021-12-27 [15:25:21] [Server thread/INFO]: World "lobby": 0 chunks, 0 entities. Time 0.01ms
+2021-12-27 [15:34:11] [Server thread/INFO]: [CONSOLE: Stopping the server]
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling EconomyAPI v5.7.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling AntiAuraBot v1.0.1
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling AlwaysSpawn v2.2.4
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling PurePerms v1.4.3
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling MultiWorld v1.6.0-beta6
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling AntiGlitch v1.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling DevTools v1.14.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling CombatLogger v0.0.6
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling WorldProtect v2.3.9
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling DEVirion v1.2.7
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling iProtector v3.1.1
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling BuilderTools v1.2.0
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling CustomAreas v1.2.1
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling PureChat v1.4.11
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling CPS v1.0.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling FormImagesFix v0.0.1
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling BlockCommand v2
+2021-12-27 [15:34:11] [Server thread/ALERT]: [BlockCommand] BlockCommandir Disarmed
+2021-12-27 [15:34:11] [Server thread/NOTICE]: [BlockCommand] Created by princepines, contributed by many.
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling DoEmote v1.0.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling cucumber v2.0.0-princepines
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling Selector v1.0.0
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling KillMoney v1.0.0
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling InfoUI v1.0.0
+2021-12-27 [15:34:11] [Server thread/INFO]: [InfoUI] Information has been leashed
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling Slapper v1.6.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling NoHunger v1.0.3-PMns
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling SkinData v1.0.0
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling Report v1.5
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling PacketLimiter v1.0.0
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling Fireworks v0.0.4
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling ChristmasPMnS v1.2.0
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling Teleport v3.0-reborn
+2021-12-27 [15:34:11] [Server thread/INFO]: [Teleport] Plugin by Clarence2810 has been disabled
+2021-12-27 [15:34:11] [Server thread/INFO]: [Teleport] Contributors: princepines
+2021-12-27 [15:34:11] [Server thread/INFO]: Disabling SlapperRotation v1.2.2
+2021-12-27 [15:34:11] [Server thread/INFO]: Unloading world "lobby"
+2021-12-27 [15:34:11] [Server thread/INFO]: Stopping other threads
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading pocketmine.yml...
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading server properties...
+2021-12-28 [15:37:44] [Server thread/INFO]: Selected English (eng) as the base language
+2021-12-28 [15:37:44] [Server thread/INFO]: Starting Minecraft: Bedrock Edition server version v1.18.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Starting remote control listener
+2021-12-28 [15:37:44] [Server thread/INFO]: RCON running on 0.0.0.0:19132
+2021-12-28 [15:37:44] [Server thread/INFO]: Online mode is enabled. The server will verify that players are authenticated to Xbox Live.
+2021-12-28 [15:37:44] [Server thread/INFO]: Opening server on 0.0.0.0:19132
+2021-12-28 [15:37:44] [Server thread/INFO]: This server is running PocketMine-MP version 3.26.4
+2021-12-28 [15:37:44] [Server thread/INFO]: PocketMine-MP is distributed under the LGPL License
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading resource packs...
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading DEVirion v1.2.7
+2021-12-28 [15:37:44] [Server thread/INFO]: [DEVirion] Loading virion libasynql v3.3.2 by SOFe (antigen: poggit\libasynql)
+2021-12-28 [15:37:44] [Server thread/INFO]: [DEVirion] Loading virion asyncio v0.2.0 by adeynes (antigen: adeynes\asyncio)
+2021-12-28 [15:37:44] [Server thread/INFO]: [DEVirion] Loading virion parsecmd v5.0.1 by adeynes (antigen: adeynes\parsecmd)
+2021-12-28 [15:37:44] [Server thread/INFO]: [DEVirion] Loading virion DiscordWebhookAPI v1.0.1 by CortexPE (antigen: CortexPE\DiscordWebhookAPI)
+2021-12-28 [15:37:44] [Server thread/INFO]: [DEVirion] Loading virion libFormAPI v1.3.0 by jojoe77777 (antigen: jojoe77777\FormAPI)
+2021-12-28 [15:37:44] [Server thread/WARNING]: [DEVirion] Virions should be bundled into plugins, not redistributed separately! Do NOT use DEVirion on production servers!!
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading AlwaysSpawn v2.2.4
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading DevTools v1.14.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading AntiAuraBot v1.0.1
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading BuilderTools v1.2.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading EconomyAPI v5.7.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading iProtector v3.1.1
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading CustomAreas v1.2.1
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading PurePerms v1.4.3
+2021-12-28 [15:37:44] [Server thread/INFO]: [PurePerms] Setting default language to 'en'
+2021-12-28 [15:37:44] [Server thread/NOTICE]: [PurePerms] Multiworld support is currently disabled.
+2021-12-28 [15:37:44] [Server thread/NOTICE]: [PurePerms] Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading CombatLogger v0.0.6
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading AntiGlitch v1.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading WorldProtect v2.3.9
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading MultiWorld v1.6.0-beta6
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading PureChat v1.4.11
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling DEVirion v1.2.7
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling AlwaysSpawn v2.2.4
+2021-12-28 [15:37:44] [Server thread/INFO]: AlwaysSpawn Enabled!
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling DevTools v1.14.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading FormImagesFix v0.0.1
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading ChristmasPMnS v1.2.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading Teleport v3.0-reborn
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading cucumber v2.0.0-princepines
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading SkinData v1.0.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading DoEmote v1.0.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading CPS v1.0.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading InfoUI v1.0.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading PacketLimiter v1.0.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading KillMoney v1.0.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading Report v1.5
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading NoHunger v1.0.3-PMns
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading Fireworks v0.0.4
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading Selector v1.0.0
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading Slapper v1.6.2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading BlockCommand v2
+2021-12-28 [15:37:44] [Server thread/INFO]: Loading SlapperRotation v1.2.2
+2021-12-28 [15:37:44] [Server thread/INFO]: [DevTools] Registered folder plugin loader
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling WorldProtect v2.3.9
+2021-12-28 [15:37:44] [Server thread/INFO]: [WorldProtect] Enabled 6 features
+2021-12-28 [15:37:44] [Server thread/INFO]: Preparing world "lobby"
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling AntiAuraBot v1.0.1
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling BuilderTools v1.2.0
+2021-12-28 [15:37:44] [Server thread/WARNING]: We recommend to disable 'memory.async-worker-hard-limit' in pocketmine.yml. By disabling this option will be BuilderTools able to load bigger schematic files.
+2021-12-28 [15:37:44] [Server thread/INFO]: Enabling EconomyAPI v5.7.2
+2021-12-28 [15:37:45] [Server thread/NOTICE]: [EconomyAPI] EconomyShop and EconomyLand is planned to be rewritten. Feel free to send any feedback for the plugin to <me@onebone.me>
+2021-12-28 [15:37:45] [Server thread/NOTICE]: [EconomyAPI] Database provider was set to: MySQL
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling iProtector v3.1.1
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling CustomAreas v1.2.1
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling PurePerms v1.4.3
+2021-12-28 [15:37:45] [Server thread/NOTICE]: [PurePerms] Set data provider to MySQL.
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling CombatLogger v0.0.6
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling AntiGlitch v1.2
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling MultiWorld v1.6.0-beta6
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling PureChat v1.4.11
+2021-12-28 [15:37:45] [Server thread/NOTICE]: [PureChat] No valid factions plugin in default-factions-plugin node was found. Disabling factions plugin support.
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling FormImagesFix v0.0.1
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling ChristmasPMnS v1.2.0
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling Teleport v3.0-reborn
+2021-12-28 [15:37:45] [Server thread/INFO]: [Teleport] Plugin by Clarence2810 has been enabled
+2021-12-28 [15:37:45] [Server thread/INFO]: [Teleport] Contributors: princepines
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling cucumber v2.0.0-princepines
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling SkinData v1.0.0
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling DoEmote v1.0.2
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling CPS v1.0.2
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling InfoUI v1.0.0
+2021-12-28 [15:37:45] [Server thread/INFO]: [InfoUI] Information has been revealed
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling PacketLimiter v1.0.0
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling KillMoney v1.0.0
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling Report v1.5
+2021-12-28 [15:37:45] [Server thread/INFO]: [Report] System mode: local
+2021-12-28 [15:37:45] [Server thread/INFO]: [Report] ReportSystem >ReportSystem by ImNotYourDev enabled!
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling NoHunger v1.0.3-PMns
+2021-12-28 [15:37:45] [Server thread/INFO]: [NoHunger] This Plugin is modified for PMnS,
+2021-12-28 [15:37:45] [Server thread/INFO]: [NoHunger] modified by princepines, Clarence1028
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling Fireworks v0.0.4
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling Selector v1.0.0
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling Slapper v1.6.2
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling BlockCommand v2
+2021-12-28 [15:37:45] [Server thread/ALERT]: [BlockCommand] BlockCommand Armed
+2021-12-28 [15:37:45] [Server thread/NOTICE]: [BlockCommand] Created by princepines, contributed by many.
+2021-12-28 [15:37:45] [Server thread/INFO]: Enabling SlapperRotation v1.2.2
+2021-12-28 [15:37:45] [Server thread/INFO]: Starting GS4 status listener
+2021-12-28 [15:37:45] [Server thread/INFO]: Setting query port to 19132
+2021-12-28 [15:37:45] [Server thread/INFO]: Query running on 0.0.0.0:19132
+2021-12-28 [15:37:45] [Server thread/INFO]: Default game type: Adventure Mode
+2021-12-28 [15:37:45] [Server thread/INFO]: If you find this project useful, please consider donating to support development: https://patreon.com/pocketminemp
+2021-12-28 [15:37:45] [Server thread/INFO]: Done (1.183s)! For help, type "help" or "?"
+2021-12-28 [15:37:45] [Server thread/INFO]: ----- PocketMine-MP Auto Updater -----
+2021-12-28 [15:37:45] [Server thread/INFO]: It appears you're running a Stable build, when you've specified that you prefer to run Pm3 builds.
+2021-12-28 [15:37:45] [Server thread/INFO]: If you would like to be kept informed about new Stable builds only, it is recommended that you change 'preferred-channel' in your pocketmine.yml to 'stable'.
+2021-12-28 [15:37:45] [Server thread/INFO]: ----- -------------------------- -----
+2021-12-28 [15:37:50] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+2021-12-28 [15:37:51] [Server thread/INFO]: This server is running PocketMine-MP 3.26.4 for Minecraft: Bedrock Edition v1.18.0 (protocol version 475)
+2021-12-28 [15:48:58] [Server thread/INFO]: RianKyro[/49.150.47.7:14180] logged in with entity id 1 at (lobby, 337, 72, 325)
+2021-12-28 [15:49:22] [Server thread/INFO]: + RianKyro
+2021-12-28 [15:49:53] [Server thread/INFO]: - RianKyro
+2021-12-28 [15:49:53] [Server thread/INFO]: RianKyro[/49.150.47.7:14180] logged out due to client disconnect
+2021-12-28 [15:51:29] [Server thread/INFO]: RianKyro[/49.150.47.7:14413] logged in with entity id 14 at (lobby, 337, 72, 325)
+2021-12-28 [15:51:54] [Server thread/INFO]: + RianKyro
+2021-12-28 [15:52:06] [Server thread/INFO]: - RianKyro
+2021-12-28 [15:52:06] [Server thread/INFO]: RianKyro[/49.150.47.7:14413] logged out due to RianKyro: Transferred to SM
+2021-12-28 [16:07:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [16:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [16:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [16:07:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [16:37:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [16:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [16:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [16:37:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [17:07:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [17:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [17:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [17:07:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [17:37:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [17:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [17:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [17:37:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [18:07:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [18:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [18:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [18:07:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [18:37:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [18:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [18:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [18:37:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [19:07:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [19:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [19:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [19:07:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [19:37:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [19:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [19:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [19:37:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [20:07:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [20:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [20:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [20:07:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [20:37:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [20:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [20:37:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()
+2021-12-28 [20:37:45] [Server thread/CRITICAL]: Could not execute asynchronous task FileWriteAsyncTask: Task crashed
+2021-12-28 [21:07:45] [Asynchronous Worker #1 thread/CRITICAL]: Error: "The script tried to call a method on an incomplete object. Please ensure that the class definition "adeynes\asyncio\WriteMode" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition" (EXCEPTION) in "/home/princepines/virions/asyncio/src/adeynes/asyncio/FileWriteAsyncTask" at line 26
+2021-12-28 [21:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #0 pmsrc/src/pocketmine/scheduler/AsyncTask(85): adeynes\asyncio\FileWriteAsyncTask->onRun()
+2021-12-28 [21:07:45] [Asynchronous Worker #1 thread/CRITICAL]: #1 (): pocketmine\scheduler\AsyncTask->run()

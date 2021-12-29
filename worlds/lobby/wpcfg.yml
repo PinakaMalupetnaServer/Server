@@ -1,0 +1,36 @@
+---
+bancmds:
+  /sethome: /sethome
+  /home: /home
+  /nick: /nick
+  /kit: /kit
+  /ak: /ak
+  /advancedkits: /advancedkits
+  /kits: /kits
+  /vote: /vote
+  /easykit: /easykit
+  /easykits: /easykits
+  /f: /f
+  /faction: /faction
+  /factions: /factions
+  /players: /players
+  /playervault: /playervault
+  /playervaults: /playervaults
+  /whois: /whois
+  /plots: /plots
+pvp: false
+protect: protect
+auth:
+  princepines: princepines
+  materex3136: materex3136
+  ericson2006: ericson2006
+  cringepapc69: cringepapc69
+no-explode: world
+banitem:
+  11: Still Lava
+  259: Flint and Steel
+  326: Unknown
+  325: Bucket
+  46: TNT
+  65: Ladder
+...

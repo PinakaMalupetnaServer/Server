@@ -1,0 +1,8 @@
+name: libasynql
+authors:
+  - SOFe
+antigen: poggit\libasynql
+version: 3.3.2
+api:
+  - 3.0.0
+  - 3.25.2

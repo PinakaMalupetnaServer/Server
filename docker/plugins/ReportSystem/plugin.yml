@@ -1,0 +1,10 @@
+name: Report
+main: ImNotYourDev\Report\Report
+api: 3.0.0
+version: 1.5
+author: ImNotYourDev, princepines
+
+permissions:
+  reportsystem.admin:
+    description: open admin ui and report list
+    default: op

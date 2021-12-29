@@ -1,0 +1,71 @@
+---
+# Enabling and disabling EssentialsPE commands can be done in this file.
+
+# Disables all commands
+Disable-All: false
+
+# Setting a command to false will disable it if the above is set to false, while setting it to true enables it.
+# If the above is set to true, only commands that have false below will be registered.
+
+break: true
+burn: true
+compass: true
+depth: true
+essentialspe: true
+extinguish: true
+feed: true
+getpos: true
+heal: true
+ping: true
+setspawn: true
+speed: true
+sudo: true
+suicide: true
+god: true
+afk: true
+top: true
+world: true
+kill: true
+top: true
+
+# Economy Commands - Require installation of the EssentialsPEconomy module.
+balance: true
+eco: true
+pay: true
+balancetop: true
+
+# Teleporting Commands
+tpaccept: true
+tpa: true
+tpahere: true
+tpall: true
+tpdeny: true
+tphere: true
+
+# Chat Commands
+broadcast: true
+nick: true
+prefix: true
+suffix: true
+
+# Warp Commands - Require installation of the EssentialsPEWarps module.
+warp: true
+delwarp: true
+setwarp: true
+
+# Inventory Commands
+clearinventory: true
+seeinventory: true
+
+
+# Special signs
+
+# Teleportation Signs
+teleportsign: true
+
+# Economy Signs - Require installation of the EssentialsPEconomy module.
+balancesign: true
+
+# Miscellaneous Signs
+gamemodesign: true
+...

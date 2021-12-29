@@ -1,0 +1,7 @@
+name: KillMoney
+main: Pmns\KillMoney\killmny
+api: 3.0.0
+version: 1.0.0
+author: RinierMC
+description: Gain Money from killing
+

@@ -1,0 +1,10 @@
+# TimeCommander
+#
+# Command: Command to execute
+# Time: Amount of time in ticks until command is executed
+
+Commands:
+  - Command: givemoney @a 1000
+    Time: 12000
+  - Command: say Do /smhelp to show help section about Survival Mode
+    Time: 24000

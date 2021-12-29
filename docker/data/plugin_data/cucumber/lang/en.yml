@@ -1,0 +1,161 @@
+# DO NOT EDIT THE FOLLOWING LINE
+version: '3.0'
+
+error:
+  # %player%
+  player-offline: "&b%player% &cis not online!"
+  # %player%
+  player-does-not-exist: "&b%player% &chas never joined this server!"
+  # %severity%
+  unknown-log-severity: "&cUnknown severity &b%severity%&c!"
+  not-ingame: "&cPlease use this command in-game!"
+  # %argument%
+  invalid-argument: "&b%argument% &cis an invalid argument!"
+  # %duration%
+  invalid-duration: "&b%duration% &cis an invalid duration!"
+  ban:
+    # %player%
+    already-banned: "&b%player% &cis already banned!"
+    # %player%
+    not-banned: "&b%player% &cis not banned!"
+  ipban:
+    # %ip%
+    already-banned: "&cIP &b%ip% &cis already banned!"
+    # %ip%
+    not-banned: "&cIP &b%ip% &cis not banned!"
+  uban:
+    # %ip%
+    already-banned: "&cIP &b%ip% &cis already u-banned!"
+  mute:
+    # %player%
+    already-muted: "&b%player% &cis already muted!"
+    # %player%
+    not-muted: "&b%player% &cis not muted!"
+  warning:
+    # %id%
+    does-not-exist: "&cWarning &b%id% &cdoesn't exist!"
+
+success:
+  # %player% %message%
+  rawtell: "&e[&bYOU &r&e-> &b%player%&e] &7%message%"
+  # %message% %severity%
+  log: "&aYou have successfully logged &7%message%&a!"
+  # %message%
+  alert: '' # the sender will get the alert message
+  # %player% %reason% %expiration%
+  ban: "&aYou have successfully banned &b%player% &auntil &d%expiration%&a!"
+  banlist:
+    # %page% %count%
+    intro: "&e&lBans &r&7(&b%count%&7, page &b%page%&7)&e&l:"
+    # %player% %reason% %expiration% %moderator% %time_created% %expired%
+    # %expired% gets replaced with moderation.active or moderation.expired
+    list: "&b%player% &fwas banned by &9%moderator% &funtil &d%expiration% &ffor &7%reason% &f(%expired%&f)"
+  # %player%
+  pardon: "&aYou have successfully unbanned &b%player%&a!"
+  # %ip% %reason% %expiration%
+  ipban: "&aYou have successfully banned IP &b%ip% &auntil &d%expiration%&a!"
+  ipbanlist:
+    # %page% %count%
+    intro: "&e&lIP Bans &r&7(&b%count%&7, page &b%page%&7)&e&l:"
+    # %ip% %reason% %expiration% %moderator% %time_created% %expired%
+    # %expired% gets replaced with moderation.active or moderation.expired
+    list: "&b%ip% &fwas banned by &9%moderator% &funtil &d%expiration% &ffor &7%reason% &f(%expired%&f)"
+  # %ip%
+  ippardon: "&aYou have successfully unbanned IP &b%ip%&a!"
+  # %ip% %reason%
+  uban: "&aYou have successfully banned any player who joins with IP &b%ip%&a!"
+  # %player% %reason% %expiration%
+  mute: "&aYou have successfully muted &b%player% &auntil &d%expiration%&a!"
+  # %player%
+  unmute: "&aYou have successfully unmuted &b%player%&a!"
+  mutelist:
+    # %page% %count%
+    intro: "&e&lMutes &r&7(&b%count%&7, page &b%page%&7)&e&l:"
+    # %player% %reason% %expiration% %moderator% %time_created% %expired%
+    # %expired% gets replaced with moderation.active or moderation.expired
+    list: "&b%player% &fwas muted by &9%moderator% &funtil &d%expiration% &ffor &7%reason% &f(%expired%&f)"
+  # %id% %player% %reason% %expiration%
+  warn: "&aYou have successfully warned &b%player% &auntil &d%expiration%&a! &7Warning ID: &6%id%"
+  warnings:
+    # %player% %count%
+    intro: "&b%player%&e's warnings &7(&b%count%&7)&e:"
+    # %id% %player% %reason% %expiration% %moderator% %time_created% %expired%
+    # %expired% gets replaced with moderation.active or moderation.expired
+    list: "&fWarned by &9%moderator% &funtil &d%expiration% &ffor &7%reason% &f(%expired%&f) &7(ID &6%id%&7)"
+  mywarnings:
+    # %player% %count%
+    intro: "&eYour warnings &7(&b%count%&7)&e:"
+    # %id% %player% %reason% %expiration% %moderator% %time_created% %expired%
+    # %expired% gets replaced with moderation.active or moderation.expired
+    list: "&fYou were warned by &9%moderator% &funtil &d%expiration% &ffor &7%reason% &f(%expired%&f)"
+  # %id% %player%
+  delwarn: "&aYou have successfully deleted warning &6%id% &abelonging to &b%player%&a!"
+  ip:
+    # %player% %ip%
+    ip: "&b%player%&e's IP is &b%ip%"
+    # %player% %ip% %alts%
+    # No need for a color for %alts%, online accounts will be green, others red, with a gray commas
+    alts: "&eTheir alts are: %alts%"
+  # %status%
+  vanish: "&aYou have successfully toggled your vanish status to &b%status%&a!"
+  history:
+    # %player% %count% %first_joined% %last_joined%
+    intro: "&b%player%&e's punishment history &7(&b%count%&7)&e:\n&7First joined &b%first_joined%\n&7Last joined &b%last_joined%"
+
+moderation:
+  ban:
+    # The message that will be displayed on the ban screen
+    # If there are more than 3 lines any subsequent lines will not be displayed
+    # %moderator% %reason% %expiration%
+    message: "&cYou have been banned until &7%expiration%&c!\n&9&lModerator &r&7%moderator%\n&f&lReason &r&7%reason%"
+    # The reason that will be displayed if none is provided by the moderator
+    default-reason: "You have broken the rules of this server"
+
+  mute:
+    mute:
+      # %moderator% %reason% %expiration%
+      message: "&eYou have been muted by &b%moderator% &euntil &b%expiration%&e.\n&7Reason: &f%reason%"
+      # The reason that will be displayed if none is provided by the moderator
+      default-reason: "You have broken a rule"
+    unmute:
+      # The message that will be sent to the player (if they are online) when they are manually unmuted
+      # %moderator%
+      manual: "&eYou have been unmuted by &b%moderator%&e!"
+      # The message that will be sent to the player (if they are online) when they are automatically unmuted
+      auto: "&eYou have automatically been unmuted; your mute period has expired!"
+    # The message sent to players if they try to chat while muted
+    # %moderator% %reason% %expiration%
+    chat-attempt: "&cYou are muted until &d%expiration%&c!"
+
+  warning:
+    # %id% %moderator% %reason% %expiration%
+    message: "&eYou have been warned by &b%moderator% &euntil &b%expiration%&e.\n&7Reason: &f%reason%"
+    # The reason that will be displayed if none is provided by the moderator
+    default-reason: "You have broken a rule"
+
+  # The expiration that is displayed when the punishment does not expired
+  no-expiration: "the Big Crunch"
+
+  # These replace the %expired% tag
+  active: "&aactive"
+  expired: "&cexpired"
+
+log:
+  templates:
+    # %type% %time% %...%
+    global: "%time% %type% | %...%"
+    # %player%
+    join: "%player% joined"
+    # %player%
+    join-attempt: "%player% tried joining while banned"
+    # %player%
+    quit: "%player% quit"
+    # %player% %message%
+    chat: "%player%: %message%"
+    # %player% %message%
+    chat-attempt: "[MUTED] %player%: %message"
+    # %player% %command%
+    command: "%player%: %command%"
+
+# Symbols: https://secure.php.net/manual/en/function.date.php
+time-format: H:i:s \o\n M d Y

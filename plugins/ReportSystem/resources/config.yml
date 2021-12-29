@@ -1,0 +1,14 @@
+#Configuration file for Reportsystem by ImNotYourDev, revised by Lycol50/princepines
+
+#plugin prefix
+#default: "§l§0ReportSystem §r§7> "
+prefix: "§6ReportSystem §7>§f"
+
+#global or local server mode
+#if set to global files will be stored in /reports in server root dir. otherwise they stored in plugin data dir
+#modes: global, local
+#default: local
+mode: local
+
+# input your own discord webhook here
+webhook: ""

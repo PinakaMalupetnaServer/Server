@@ -1,0 +1,6 @@
+name: NoHunger
+version: 1.0.3-PMns
+author: Matthww, princepines
+api: 3.0.0
+description: Disable hunger!
+main: Matthww\NoHunger\NoHunger

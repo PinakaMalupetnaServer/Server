@@ -1,0 +1,13 @@
+name: ChristmasPMnS
+main: princepines\ChristmasPMnS\main
+version: 1.2.0
+api: 3.0.0
+author: Lycol50
+description: Christmas event for PMnS
+commands:
+  launch:
+    description: Launch Fireworks and Music
+    default: op
+#  intro:
+#    description: Start Introduction
+#    default: op

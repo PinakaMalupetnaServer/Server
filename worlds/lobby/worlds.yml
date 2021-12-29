@@ -1,0 +1,8 @@
+---
+gamemode: "2"
+pvp: "false"
+damage: "false"
+drop: "false"
+hunger: "false"
+build: "false"
+...

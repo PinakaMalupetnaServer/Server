@@ -1,0 +1,46 @@
+---
+# InformationUI or InfoUI by Hytlenz (Lentou)
+# for image-type: 0 is for default texture path from MCPE like "textures/ui/cancel"
+#.                1 is for url from internet or source like "http://pocketpinas.cf/icon-pcp.png"
+# Supported § for color
+
+wikipedia:
+  title: "§lWikipedia"
+  return: "§l< Back"
+  content:
+    - "§7Greetings, §b{player}"
+    - ""
+    - "§7Welcome to Wikipedia of Your Server"
+    - ""
+    - "§7Here you can read all"
+    - "§7Informations regarding on this server"
+
+wiki:
+  about:
+    button: "About Us"
+    imgtype: 0
+    imgpath: ""
+    title: "About Us Title Form"
+    content:
+      - "You can add"
+      - "More Infos as much as"
+      - "You want"
+  ranks:
+    button: "Ranks"
+    imgtype: 1
+    imgpath: "https://img2.pngio.com/ranking-png-1-png-image-ranking-png-512_512.png"
+    title: "Ranks List"
+    content:
+      - "Rank 1: VIP"
+      - "Rank 2: MVP"
+      - "Rank 3: SVP"
+   others:
+     button: "Others"
+     imgtype: 0
+     imgpath: "textures/items/wooden_sword"
+     title: "Others"
+     content:
+       - "Edit the config.yml"
+       - "For More Info"
+# You can add more forms just follow the format.
+...

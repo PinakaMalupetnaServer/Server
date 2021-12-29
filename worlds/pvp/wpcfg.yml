@@ -1,0 +1,29 @@
+---
+banitem:
+  11: Still Lava
+  259: Flint and Steel
+  326: Unknown
+  325: Bucket
+  46: TNT
+  65: Ladder
+protect: protect
+bancmds:
+  /player: /player
+  /nickname: /nickname
+  /f: /f
+  /players: /player
+  /who: /who
+  /cape: /cape
+  /claimreward: /claimreward
+  /whois: /whois
+  /kit: /kit
+  /vote: /vote
+  /faction: /faction
+  /factions: /factions
+  /claim: /claim
+  /plots: /plots
+  /plot: /plot
+  /creativeplots: /creativeplots
+no-explode: world
+pvp: spawn-off
+...

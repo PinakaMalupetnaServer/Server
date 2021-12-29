@@ -1,0 +1,796 @@
+---
+commands:
+  afk:
+    name: "afk"
+    description: "Toggle the 'Away from the keyboard' status"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - away
+    self-disable: "&eYou are no longer AFK"
+    self-enable: "&eYou are now AFK"
+    other-disable: "&d{0} &eis no longer AFK"
+    other-enable: "&d{0} &eis now AFK"
+    other-permission: "&cYou are not allowed to toggle other players' AFK status"
+  antioch:
+    name: "antioch"
+    description: "Holy hand grenade"
+    usage: ""
+    console-usage: false
+    alias:
+      - grenade
+      - tnt
+    confirmation: "&eGrenade threw!"
+    no-spot: "&cThere are no near spots to place the grenade on..."
+  back:
+    name: "back"
+    description: "Teleport to your previous location"
+    usage: ""
+    console-usage: false
+    alias:
+      - return
+    not-available: "&cThere is no previous location available to teleport"
+  balance:
+    name: "balance"
+    description: "Fetch current money balance"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - bal
+      - money
+    add: "&eAdding &d{0} &eto balance..."
+    other: "&d{1} &bhas &a{0}"
+    reset: "&eResetting balance..."
+    self: "&bYou have &a{0}"
+    set: "&eSetting &d{0} &eas balance..."
+    take: "&eTaking &d{0} &efrom balance..."
+    above-limit: "&cYou can't give more money than the maximum money limit"
+    below-limit: "&cYou can't take more money than the minimum money limit"
+    out-limit: "&cYou can't set money out of the money limits"
+  balancetop:
+    name: "balancetop"
+    description: "View current top balances"
+    usage: ""
+    console-usage: true
+    alias:
+     - moneytop
+     - topmoney
+     - topbalance
+    top: "&b--- &aBalance Top List &b---"
+  bigtree:
+    name: "bigtree"
+    description: "Spawns a big tree"
+    usage: "<tree|redwood|jungle>"
+    console-usage: false
+    alias: []
+  break:
+    name: "break"
+    description: "Break the block you are looking at"
+    usage: ""
+    console-usage: false
+    alias: []
+    bedrock-permission: "&cYou are not allowed to break bedrock"
+  broadcast:
+    name: "broadcast"
+    description: "Broadcast a message"
+    usage: "<message>"
+    console-usage: true
+    alias:
+      - bcast
+    syntax: "&d[Broadcast] &r{0}"
+  burn:
+    name: "burn"
+    description: "Set a player on fire!"
+    usage: "<player> <seconds>"
+    console-usage: true
+    alias: []
+    confirmation: "&d{0} &eis now on fire!"
+    invalid-time: "&cInvalid burning time provided"
+  clearinventory:
+    name: "clearinventory"
+    description: "Clear your or other's inventory"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - ci
+      - clean
+      - clearinvent
+    confirmation: "&bYour inventory was cleared"
+    other-confirmation: "&bCleared inventory of player &d{0}"
+    other-permission: "&cYou are not allowed to clear other players' inventory"
+  compass:
+    name: "compass"
+    description: "Display your current bearing direction"
+    usage: ""
+    console-usage: false
+    alias:
+      - direction
+    direction: "&bYou are facing &e{0}"
+    east: "east"
+    north: "north"
+    south: "south"
+    unknown-direction: "&cOoops, there was an error calculating your facing direction"
+    west: "west"
+  condense:
+    name: "condense"
+    description: "Compact your inventory!"
+    usage: "[item name|id|hand|inventory|all]"
+    console-usage: false
+    alias:
+      - compact
+      - toblocks
+    confirmation: "&eConverting &d{0} &eitem into most compact form..."
+    confirmation-inventory: "&eConverting all items into most compact form..."
+    invalid-item: "&cItem &d{0} &ccannot be condensed"
+  delhome:
+    name: "delhome"
+    description: "Removes a home"
+    usage: "<name>"
+    console-usage: false
+    alias:
+      - remhome
+      - removehome
+    confirmation: "&eSuccessfully removed home &d{0}"
+  delwarp:
+    name: "delwarp"
+    description: "Delete a warp"
+    usage: "<name>"
+    console-usage: true
+    alias:
+      - close
+      - remwarp
+      - removewarp
+    confirmation: "&cSuccessfully removed warp &d{0}"
+    need-permission: "&cYou are not allowed to delete this warp"
+  depth:
+    name: "depth"
+    description: "Display your depth related to sea level"
+    usage: ""
+    console-usage: false
+    alias:
+      - height
+    above: "&bYou are &d{0} &bmeters above sea level"
+    at-sea-level: "&bYou are at sea level"
+    below: "&bYou are &d{0} &bmeters below sea level"
+  eco:
+    name: "eco"
+    description: "Sets the balance of a player"
+    usage: "<add|give|reser|set|take> <player> [amount]"
+    console-usage: true
+    alias:
+      - economy
+  essentialspe:
+    name: "essentialspe"
+    description: "Update or get information about EssentialsPE"
+    usage: "[version|update <check|install>]"
+    console-usage: true
+    alias:
+      - essentials
+      - ess
+      - esspe
+  extinguish:
+    name: "extinguish"
+    description: "Extinguish a player"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - ext
+    other: "&d{0} &bhas been extinguished"
+    other-permission: "&cYou are not allowed to extinguish other players"
+    self: "&bYou were extinguished"
+  feed:
+    name: "feed"
+    description: "Feed yourself or other players"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    confirmation: "&aYou have been fed"
+    other-confirmation: "&d{0} &ahas been fed"
+  fly:
+    name: "fly"
+    description: "Fly in Survival or Adventure mode!"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    other-disabled: "&eFly mode disabled!"
+    other-enabled: "&eFly mode &aenabled&e!"
+    other-permission: "&cYou are not allowed to toggle Fly mode for other players"
+    self-disabled: "&eFly mode disabled!"
+    self-enabled: "&eFly mode &aenabled&e!"
+  gamemode:
+    name: "gamemode"
+    description: "Change player's gamemode"
+    usage: "<mode> [player]"
+    console-usage: "<mode> <player>"
+    alias:
+      - gm
+      - gma
+      - gmc
+      - gms
+      - gmt
+      - adventure
+      - creative
+      - survival
+      - spectator
+      - viewer
+    confirmation: "&aYou are now in &e{0} &amode"
+    invalid-mode: "&cPlease provide a valid gamemode"
+    already-in-mode: "&cYou are already in &e{0} &cmode"
+    other-already-in-mode: "&d{0} &cis already in &e{1} &cmode"
+    other-confirmation: "&d{0} &ais now in &e{1} &amode"
+  getpos:
+    name: "getpos"
+    description: "Get your/others position"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - coords
+      - position
+      - whereami
+      - getlocation
+      - getloc
+      - xyz
+    other-location: "&d{4} &ais in world &b{0}\n&aYour coordinates:\n &bX: &e{1}\n &bY: &e{2}\n &bZ: &e{3}"
+    other-permission: "&cYou are not allowed to get others' position"
+    self-location: "&aYou are in world &b{0}\n&aYour coordinates:\n &bX: &e{1}\n &bY: &e{2}\n &bZ: &e{3}"
+  god:
+    name: "god"
+    description: "Prevent you from taking damage"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - godmode
+      - tgm
+    other-disabled: "&bGod mode &edisabled &bfor player &d{0}"
+    other-enabled: "&bGod mode &aenabled &bfor player &d{0}"
+    other-permission: "&cYou are not allowed to toggle other players' God mode"
+    self-disabled: "&bGod mode &edisabled"
+    self-enabled: "&bGod mode &aenabled"
+  hat:
+    name: "hat"
+    description: "Get some new cool headgear"
+    usage: "[remove]"
+    console-usage: false
+    alias:
+      - head
+    added: "&bYou have a new hat!"
+    invalid-item: "&cPlease specify a valid item to wear"
+    removed: "&bHat removed!"
+  heal:
+    name: "heal"
+    description: "Heal yourself or other players"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    confirmation: "&aYou have been healed"
+    other-confirmation: "&d{0} &ahas been healed"
+  home:
+    name: "home"
+    description: "Teleport to your home"
+    usage: "<name>"
+    console-usage: false
+    alias:
+      - homes
+    bed-error: "&cYou can only set a &dBed Home &cby sleeping in one bed"
+    confirmation: "&aTeleporting to home &d{0}&a..."
+    list: "&bAvailable kits:\n&r{0}"
+    list-syntax: "&f, &e{0}"
+    empty: "&cYou do not have any home yet"
+    exists: "&cHome &d{0} &cdoes not exists"
+  item:
+    name: "item"
+    description: "Gives yourself an item"
+    usage: "<item[:damage]> [amount]"
+    console-usage: false
+    alias:
+      - i
+    confirmation: "&eGetting &a{0} &eof &d{1}"
+    need-permission: "&cYou are not allowed to spawn item &d{0}"
+  itemdb:
+    name: "itemdb"
+    description: "Displays information attached to the item in hand"
+    usage: "[name|id|metadata|durability]"
+    console-usage: false
+    alias:
+      - itemno
+      - durability
+      - dura
+    i-durability: "&bThis item has &e{0} &bpoints of damage"
+    i-id: "&bThis item ID is &e{0}"
+    i-metadata: "&bThis item metadata is &e{0}"
+    i-name: "&bThis item is named &e{0}"
+  jump:
+    name: "jump"
+    description: "Teleport to the block you are looking at"
+    usage: ""
+    console-usage: false
+    alias:
+      - j
+      - jumpto
+  kickall:
+    name: "kickall"
+    description: "Kick all the players from the server"
+    usage: "[reason]"
+    console-usage: true
+    alias: []
+    done: "&bKicked all the players!"
+    empty-server: "&cThere are no players to kick"
+    message: "&aYou have been kicked!"
+    reason: "\n&eReason: {0}"
+    unknown-reason: "Unknown"
+  kill:
+    name: "kill"
+    description: "Kill players"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    exempt: "&d{0} &ccannot be killed"
+    other-permission: "&cYou are not allowed to kill other players"
+  kit:
+    name: "kit"
+    description: "Get a pre-defined kit"
+    usage: "[name] [player]"
+    console-usage: "[<name> <player>]"
+    alias:
+      - kits
+    get: "&aGetting kit &e{0}&a..."
+    give: "&aGiving &d{0} &akit &e{0}&a..."
+    list-kits: "&bAvailable kits:\n&r{0}"
+    list-syntax: "&f, &e{0}"
+    need-permission: "&cYou are not allowed to get kit &d{0}"
+    no-kits-available: "&7There are no kits currently available"
+    not-exists: "&cKit does not exists"
+    other-permission: "&cYou are not allowed to give kits to other players"
+  lightning:
+    name: "lightning"
+    description: "Strike a lightning!"
+    usage: "[player [damage]]"
+    console-usage: "<player> [damage]"
+    alias:
+      - strike
+      - smite
+      - thor
+      - shock
+    summon: "&eLightning summoned!"
+  more:
+    name: "more"
+    description: "Get a stack of the item you are holding"
+    usage: ""
+    console-usage: false
+    alias: []
+    air-stack: "&cYou cannot get a stack of &eAIR"
+    stack-filled: "&bFilled item stack up to &e{0}"
+  msg:
+    name: "tell"
+    description: "Send private messages to other players"
+    usage: "<player> <message>"
+    console-usage: true
+    alias:
+      - msg
+      - m
+      - t
+      - whisper
+    other-syntax: "&e[&d{0} &e-> me] &r{1}"
+    syntax: "&e[me -> &d{0}&e] &r{1}"
+  mute:
+    name: "mute"
+    description: "Prevent a player from sending chat messages"
+    usage: "<player> [time...]"
+    console-usage: true
+    alias:
+      - silence
+    exempt: "&d{0} &ccannot be muted"
+    mute-forever: "&cForever"
+    mute-time: "&euntil &b{0} &eat &b{1}"
+    other-muted: "&d{0} &ehas been muted{0}&e!"
+    other-unmuted: "&d{0} &ehas been unmuted"
+    self-muted: "&eYou have been muted{0}&e!"
+    self-unmuted: "&eYou have been unmuted!"
+  near:
+    name: "near"
+    description: "List the players near to you"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - nearby
+    list-syntax: "&r&e, &r{0}"
+    other-list: "&eThere are &9{0} &eplayers near to &d{2}&e:&r{1}"
+    other-permission: "&cYou are not allowed to see who is near to other players"
+    other-nobody: "&7There are no players near to &d{0}&7!"
+    self-list: "&eThere are &9{0} &eplayers near to you:&r{1}"
+    self-nobody: "&7There are no players near to you!"
+  nick:
+    name: "nick"
+    description: "Change your in-game name"
+    usage: "<new nick|off> [player]"
+    console-usage: "<new nick|off> <player>"
+    alias:
+      - nickname
+    cancelled: "&eOoops, something went wrong while applying the new &dNickname"
+    other-change: "&aNickname of &d{0} &ahas changed to: &r{1}"
+    other-permission: "&cYou are not allowed to change other players' nickname"
+    self-change: "&aYour nick as changed to: &r{0}"
+    self-restore: "&aYour nick as been removed &f(Restored to real name)"
+  nuke:
+    name: "nuke"
+    description: "Thin carpet of bomb"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    other-permission: "&cYou are not allowed to explode other players"
+  pay:
+    name: "pay"
+    description: "Pay a player from your balance"
+    usage: "<player> <amount>"
+    console-usage: false
+    alias: []
+    confirmation: "&ePaying &a{0} &eto &d{1}"
+    profit: "&cYou do not have enough profit to pay"
+    excessive: "&cThe target player has too much money"
+  ping:
+    name: "ping"
+    description: "Pong!"
+    usage: ""
+    console-usage: true
+    alias: []
+    pong: "Pong!"
+  powertool:
+    name: "powertool"
+    description: "Toggle PowerTool on the item you are holding"
+    usage: "<command|c: chat macro> <arguments>"
+    console-usage: false
+    alias:
+      - pt
+    append-permission: "&cYou are not allowed to append more than one command to items"
+    chat-macro-assigned: "&aChat Macro successfully assigned to this item"
+    chat-macro-removed: "&eChat Macros removed from this item"
+    command-assigned: "&aCommand successfully assigned to item!"
+    command-removed: "&eCommand removed from this item"
+    commands-assigned: "&aCommands successfully assigned to item!"
+    commands-removed: "&eCommands removed from this item"
+    empty-hand: "&cYou cannot assign a command to an empty hand"
+    invalid-commands: "&cCommand &d{0} &ccannot be assigned"
+    list-syntax: "&e=== &bPowerTool &e===\n&dCommands:&r{0}&r\n&dChat Macro:&r{1}"
+    list-chat-macro-syntax: "\n &e* &f{0}"
+    list-command-syntax: "\n &e* &f/{0}"
+    no-chat-macro: "&e&lThis item does not have any Chat Macros assigned"
+    no-commands: "&e&lThis item does not have any Commands assigned"
+  powertooltoggle:
+    name: "powertooltoggle"
+    description: "Disable PowerTool from all your items"
+    usage: ""
+    console-usage: false
+    alias:
+      - ptt
+      - pttoggle
+    confirmation: "&ePowerTool disabled from all your items!"
+  ptime:
+    name: "ptime"
+    description: "Changes the world-time for a specific player"
+    usage: "<time> [player]"
+    console-usage: "<time> <player>"
+    alias:
+      - playertime
+    confirmation: "&aSending new time..."
+    error: "&cSomething went wrong while setting the new time"
+    other-permission: "&cYou are not allowed to change other players' time"
+  pvp:
+    name: "pvp"
+    description: "Toggles Player-vs-Player mode On/Off"
+    usage: "<on|true|enable|off|false|disable>"
+    console-usage: false
+    alias: []
+    disabled: "&fPvP mode &cdisabled"
+    enabled: "&fPvP mode &aenabled"
+  realname:
+    name: "realname"
+    description: "Check the real name of a player"
+    usage: "<player>"
+    console-usage: true
+    alias: []
+    reveal: "&eReal name of &d{0} &eis &f{0}"
+  repair:
+    name: "repair"
+    description: "Repair the item you are holding"
+    usage: "[all|hand|armor|inventory]"
+    console-usage: false
+    alias:
+      - fix
+    armor-permission: "&cYou are not allowed to repair your armor"
+    confirm-armor: "&bEquipped armor was repaired"
+    confirm-individual: "&aItem successfully repaired"
+    confirm-inventory: "&aAll the tools in your inventory were repaired"
+    invalid-item: "&cThis item cannot be repaired"
+    inventory-permission: "&cYou are not allowed to repair all items in your inventory"
+  reply:
+    name: "reply"
+    description: "Quickly reply to the last played that messaged you"
+    usage: "<message...>"
+    console-usage: true
+    alias:
+      - r
+    no-target: "&cNo target available to reply"
+    other-syntax: "[{0} &r-> me] {1}"
+    self-syntax: "[me -> {0}&r] {1}"
+  seeinventory:
+    name: "seeinventory"
+    description: "See the content of other players' inventories"
+    usage: "<player>"
+    console-usage: false
+    alias: ["si", "lookinventory", "checkinventory"]
+    success: "&cInventory of &e{0} &copened successfully"
+  seen:
+    name: "seen"
+    description: "See player's last connection time"
+    usage: "<player>"
+    console-usage: true
+    alias: []
+    is-online: "&d{0} &fis &aOnline&f!"
+    last-seen: "&d{0} &bwas last need on &e{1} &bat &e{2}"
+    unknown-player: "&d{0} &c as never played on this server"
+  sell:
+    name: "sell"
+    description: "Sell the specified item"
+    usage: "<item|hand> [amount]"
+    console-usage: false
+    alias: []
+    amount-owned: "&cYou do not own that amount of items"
+    confirmation: "&eSold &d{0} &eitems! You got &a{0}"
+    empty-hand: "&cPlease select a valid item to sell"
+    not-owned: "&cYou do not own any &d{0} &citems"
+  sethome:
+    name: "sethome"
+    description: "Create or update home's positions"
+    usage: "<name>"
+    console-usage: false
+    alias:
+      - createhome
+    created: "&aSuccessfully created home &d{0}"
+    updated: "&aSuccessfully updated home &d{0}"
+  setspawn:
+    name: "setspawn"
+    description: "Sets the spawn location"
+    usage: ""
+    console-usage: false
+    alias: []
+    confirmation: "&eServer's spawnpoint location changed!"
+    console-confirmation: "&eServer's spawn location set on world &d{0} &eby &d{1}"
+  setwarp:
+    name: "setwarp"
+    description: "Create a warp (or update it)"
+    usage: "<name>"
+    console-usage: false
+    alias:
+      - openwarp
+      - createwarp
+    created: "&aWarp &d{0} &asuccessfully created!"
+    updated: "&aWarp &d{0} &asuccessfully updated!"
+    update-permission: "&cYou are not allowed to update warp &d{0} &cposition"
+  setworth:
+    name: "setworth"
+    description: "Sets the worth of the item you hold"
+    usage: "<worth>"
+    console-usage: false
+    alias: []
+    confirmation: "&eSetting worth..."
+    invalid: "&cPlease provide a valid worth"
+  spawn:
+    name: "spawn"
+    description: "Teleport to server's main spawn"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    other-permission: "&cYou are not allowed to teleport other players to &eSpawn"
+    other-teleporting: "&aTeleporting &d{0} &ato &eSpawn&a..."
+    teleporting: "&aTeleporting to &eSpawn&a..."
+  speed:
+    name: "speed"
+    description: "Change your speed limits"
+    usage: "<speed> [player]"
+    console-usage: "<speed> <player>"
+    alias: []
+    applied: "&eSpeed amplified by &f{0}"
+    invalid: "&cPlease provide a valid speed value"
+  sudo:
+    name: "sudo"
+    description: "Run a command as another player"
+    usage: "<player> <command [args]|c:<chat message>>"
+    console-usage: true
+    alias: []
+    exempt-sudo: "&cPlayer &d{0} &ccannot be sudo'ed"
+    sending-command: "&aCommand &e{0} &aran as &d{1}"
+    sending-message: "&aSending message '&e{0}&a' as &d{1}"
+  suicide:
+    name: "suicide"
+    description: "Kill yourself"
+    usage: null
+    console-usage: false
+    alias: []
+    message: "Ouch. That look like it hurt"
+  tempban:
+    name: "tempban"
+    description: "Bans a player for a specific amount of time"
+    usage: "<player> <time...> [reason...]"
+    console-usage: true
+    alias: []
+    ban-exempt: "&d{0} &ccannot be banned"
+    banned-until: "&cBanned until &b{0} &cat &b{1}"
+    broadcast: "&eBanned player &d{0} until &b{1} &cat &b{2}"
+    invalid-time: "&cPlease specify a valid amount time"
+    reason: "&eReason: &r{0}"
+  top:
+    name: "top"
+    description: "Teleport to the highest block above you"
+    usage: null
+    console-usage: false
+    alias: []
+  tpa:
+    name: "tpa"
+    description: "Send a teleport request to another player"
+    usage: "<player>"
+    console-usage: false
+    alias:
+      - call
+      - tpask
+    confirmation: "&aTeleport request sent to &d{0}"
+    not-available: "&cRequest from &d{0} &cis unavailable"
+    no-requests: "&cYou do not have any teleport requests, yet"
+    no-requests-from: "&cYou do not have any teleport requests from &d{0}"
+    self-request: "&cYou cannot send a teleport request to yourself"
+    syntax: ", please use:\n&e/tpaccept &ato accept the request\n&e/tpdeny &ato decline the request"
+    tphere: "&d{0} &awants you to teleport to him"
+    tpto: "&d{0} &awants to teleport to you"
+  tpaccept:
+    name: "tpaccept"
+    description: "Accept a Teleport Request"
+    usage: "[player]"
+    console-usage: false
+    alias:
+      - tpyes
+    confirmation: "&d{0} &aaccepted your teleport request! &r{1}"
+  tpahere:
+    name: "tpahere"
+    description: "Request a player to Teleport to you"
+    usage: "<player>"
+    console-usage: false
+    alias: []
+  tpall:
+    name: "tpall"
+    description: "Teleport all players to you or another player"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias: []
+    confirmation: "Teleporting all players to you..."
+    other-confirmation: "Teleporting to &d{0}..."
+  tpdeny:
+    name: "tpdeny"
+    description: "Decline a Teleport Request"
+    usage: "[player]"
+    console-usage: false
+    alias:
+      - tpno
+    confirmation: "&eYou have denied teleport request from &d{0}"
+    other-notice: "&d{0} &ehas denied your teleport request"
+  tphere:
+    name: "tphere"
+    description: "Teleport a player to you"
+    usage: "<player>"
+    console-usage: false
+    alias:
+      - s
+    confirmation: "&eTeleporting &d{0} &eto you..."
+    other-confirmation: "&eTeleporting to &d{0}&e..."
+  tree:
+    name: "tree"
+    description: "Spawns a tree"
+    usage: "<tree|birch|redwood|jungle>"
+    console-usage: false
+    alias: []
+  unlimited:
+    name: "unlimited"
+    description: "Allow you to place unlimited blocks"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - ul
+      - unl
+    other-disabled: "&eUnlimited placing of blocks &cDisabled &efor &d{0}"
+    other-enabled: "&eUnlimited placing of blocks &aEnabled &efor &d{0}"
+    other-permission: "&fYou are not allowed to enable &oUnlimited &r&fmode for other players"
+    self-disabled: "&eUnlimited placing of blocks &cDisabled"
+    self-enabled: "&eUnlimited placing of blocks &aEnabled"
+  vanish:
+    name: "vanish"
+    description: "Hide from other players!"
+    usage: "[player]"
+    console-usage: "<player>"
+    alias:
+      - v
+    other-disabled: "&d{0} &f is now &lvisible"
+    other-enabled: "&d{0} &fis now &7vanished&f!"
+    other-permission: "&cYou are not allowed to &oVanish &r&cother players"
+    self-disabled: "&fYou are now &lvisible"
+    self-enabled: "&fYou are now &7vanished&f!"
+  warp:
+    name: "warp"
+    description: "Teleport to a warp"
+    usage: "[name] [player]"
+    console-usage: "[name <player>]"
+    alias:
+      - warps
+    list-warps: "&bAvailable warps:\n&r{0}"
+    list-syntax: "&f, &e{0}"
+    need-permission: "&cYou are not allowed to teleport to warp &d{0}"
+    not-exists: "&cWarp &d{0} &cdoes not exists"
+    no-warps-available: "&bThere are no warps currently available"
+    self-confirmation: "&aWarping to &b{0}&a..."
+    other-confirmation: "&aWarping &d{0} &ato &b{0}&a..."
+    other-permission: "&cYou are not allowed to warp other players"
+  whois:
+    name: "whois"
+    description: "Display player information"
+    usage: "<player>"
+    console-usage: true
+    alias: []
+    i-afk: "&7AFK"
+    i-information: "&bInformation"
+    i-location: "&7Location"
+    i-money: "&7Money"
+    i-name: "&7Name"
+    i-nick: "&7Nick"
+  workbench:
+    name: "workbench"
+    descripition: "Opens up a crafting table window"
+    usage: ""
+    console-usage: false
+    alias: ["craftingtable", "worktable", "craftingbench"]
+  world:
+    name: "world"
+    description: "Teleport bewteen worlds"
+    usage: "<world name>"
+    console-usage: false
+    alias: []
+    load-error: "&eSomething went wrong and we could not load world &d{0}"
+    loading-world: "&cWorld &d{0} &cwas not loaded previously. Loading..."
+    need-permission: "&cYou are not allowed to teleport to world &d{0}"
+    teleport: "&eTeleporting to world &d{0}"
+    not-exists: "&cWorld &d{0} &cdoes not exists"
+  worth:
+    name: "worth"
+    description: "Get the price of an item"
+    usage: "[item]"
+    console-usage: "<item>"
+    alias: []
+    get: "&eThis item worths &a{0}"
+    unknown: "&cUnknown worth for item &d{0}"
+error:
+  color-codes-permission: "&CYou are not allowed to use &o&eColor Codes"
+  command-usage: "&cUsage: &e/{0} {1}"
+  gamemode-error: "&fYou are in &e{0} &fmode"
+  invalid-amount: "&cPlease specify a valid amount"
+  invalid-config: "&cInvalid Configuration file found, generating a new one..."
+  invalid-name: "&cInvalid name provided, be sure use only &eAlphanumerical &ccharacters and &eUnderscores"
+  near-block: "&cThere are no reachable blocks in your aiming direction"
+  need-permission: "&eYou don't have permission to use this command"
+  other-gamemode-error: "&d{0} &fis in &e{1} &fmode"
+  player-not-found: "&cPlayer &d{0} &cnot found"
+  run-in-game: "&cCommand &d{0} &ccan only be run &ein-game"
+  run-in-console: "&cCommand &d{0} &ccan only be run &ein-console"
+  unknown-item: "&cUnknown item &d{0}"
+  sign-need-permission: "&eYou don't have permission to &c{0}&e this sign"
+general:
+  prefix: "&f[&aEssentialsPE&f]"
+  teleport-confirmation: "&eTeleporting..."
+  teleport-delay: "&ePlease stand still for &c{0} &eseconds"
+  teleport-cancel: "&cTeleport cancelled"
+  sign-success: "&aSuccessfully created a {0} sign"
+  updater:
+    debug: "&eRunning EssentialsPE UpdateFetchTask"
+    development: "&eFetching latest development build..."
+    found-new: "&eNew {0} version found!"
+    install: ", &aInstalling..."
+    is-latest: "&eYou are using latest EssentialsPE version!"
+    version: "&bVersion: &e{0}"
+    working: "&eThe updater is already working... Please wait and try again"
+  version: "&eThis server is using &aEssentialsPE &bv{0}"
+...

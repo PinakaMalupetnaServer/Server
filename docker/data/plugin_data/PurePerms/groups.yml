@@ -1,0 +1,63 @@
+---
+Guest:
+  alias: gst
+  isDefault: true
+  inheritance: []
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - cucumber.command.history
+  - cucumber.command.mywarnings
+  - pchat.colored.format
+  - pchat.colored.nametag
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  worlds: []
+Builder:
+  alias: bdr
+  inheritance:
+  - Guest
+  permissions:
+  - buildertools.command
+  - buildertools.command.*
+  - multiworld.command
+  - multiworld.command.*
+  - pocketmine.command.gamemode
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  - slapper.*
+  - slapper.command
+  - wp.cmd.all
+Moderator:
+  alias: mod
+  inheritance:
+  - Guest
+  permissions:
+  - cucumber.command.mute
+  - cucumber.command.warn
+  - pocketmine.command.kick
+Admin:
+  alias: adm
+  inheritance:
+  - Moderator
+  - Builder
+  permissions:
+  - cucumber.*
+  - cucumber.command.*
+  - cucumber.command.alert
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  worlds: []
+Owner:
+  alias: owr
+  inheritance:
+  - Admin
+  permissions:
+  - '*'
+  - essentials
+  - pocketmine.command
+  - pperms.command
+  worlds: []
+...

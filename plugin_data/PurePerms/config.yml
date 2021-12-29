@@ -1,0 +1,16 @@
+---
+data-provider: mysql
+default-language: en
+disable-op: false
+enable-multiworld-perms: false
+enable-noeul-sixtyfour: false
+mysql-settings:
+  host: gsrv.princepines.digital
+  port: 3306
+  user: pmns
+  password: pmns2021!1937
+  db: perms
+noeul-minimum-pw-length: 6
+superadmin-ranks:
+- OP
+...

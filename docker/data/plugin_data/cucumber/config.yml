@@ -1,0 +1,68 @@
+# DO NOT EDIT THE FOLLOWING LINE
+version: '3.0'
+
+# en fr
+language: en
+
+database:
+  type: mysql # only mysql is supported as of now
+
+  mysql:
+    host: gsrv.princepines.digital
+    username: pmns
+    password: pmns2021!1937
+    schema: cucumber # aka database
+    port: 3306 # customizable port
+
+  # The maximum number of simultaneous SQL queries
+  # Recommended: 1 for sqlite, 2 for MySQL. You may want to further increase this value if your MySQL connection is very slow.
+  worker-limit: 2
+
+task:
+  # How often to check for expired punishments, in seconds
+  expiration-task-period: 20
+  # How often to sync memory with the db, also how often punishments will be synchronized across servers, in seconds
+  # Increase this if you have a LOT of punishments and experience lag every 20 seconds
+  db-sync-task-period: 20
+  # How often to write to the log file in seconds
+  write-task-period: 10
+
+log:
+  # Where log files will be located; relative to the plugin's data folder
+  path: log/
+  traffic: true # log join/quit events
+  chat: true # log all messages sent to chat
+  command: true # log all commands
+  # Loggers are in the form [fully-classified class name => constructor args]
+  # Constructor args must be constant, and will be passed after the LogDispatcher instance
+  loggers:
+    log:
+      - [\adeynes\cucumber\log\BaseLogger, []]
+    notice:
+      []
+    important:
+      []
+    alert:
+      []
+  severities:
+    join: log
+    join-attempt: log
+    quit: log
+    chat: log
+    chat-attempt: log
+    command: log
+
+punishment:
+  list:
+    lines-per-page: 10
+
+# WEBHOOKS
+# This plugin uses JSON for webhooks, suitable for discord webhook,
+# if you want to use Webhooks to your site, create your own JSON Parser and deploy it to your site.
+
+# put your default webhook link below (this covers ban, unban. mute, ipban, ipunban)
+# for example: webh : "https://mysite.com/webhook"
+webh: "https://discord.com/api/webhooks/912029836728467476/J74QIWhH6LKH5yJzBwgNthGEziK6iqeer2LbPHoGz2IYpyE-RIBtUTf7yX6TlILrzSNw"
+# put your announcement discord link below (uses /alert command)
+# for example: webh2 : "https://mysite.com/webhook"
+webh2: "https://discord.com/api/webhooks/912029492455813131/vfaeljnYJ8QqyzBfHNVG3Uo514EoU0nTCpAZMdZKQ7iEp24-kbUKYFcfRsVUxSapUsSG"
